@@ -1,0 +1,9 @@
+font-size:
+1   2   3   4   5   6   7  8
+64、60、48、32、24、18、16、14
+
+font-weight:normal(400)
+font-weight:bold(700)
+
+spacing:
+12、16、20、24、32、48、60、72
