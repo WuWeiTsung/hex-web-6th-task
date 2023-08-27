@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>signle page</title>
+    
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script type="module" crossorigin src="/web-layout-training-vite/assets/main-7850ddbf.js"></script>
+  <link rel="stylesheet" href="/web-layout-training-vite/assets/main-960816ee.css">
+</head>
+
+<body>
+    <!-- <h1 class="header">我是 header</h1>
+<a href="index.html">index</a>
+<a href="about.html">about</a>
+<a href="contact.html">contact</a> -->
+
+<nav class="border-bottom border-primary border-3 mb-md-32 mb-16">
+    <div class="container d-flex  align-items-center flex-wrap ">
+        <div class="d-flex py-24 align-items-center justify-content-between ">
+            <a href="index.html">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGoAAABqCAYAAABUIcSXAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAATESURBVHgB7Z0xTFNRFIYvtBo0xldDjCEOJXFwk0Gjmw4aNnUgsukgkUkcCGyEwbhpHIAJooOOxgHYTBx0w+hQNxOH1sQQVLRFo0RRvP+jr719YGmxlPufnC8x9jXPBt/HOfeccx+PlkQisWoU72k1CgUqigQVRUIy/sbyStooO09bMldxrBFFgooiQUWRoKJIUFEkqCgSVBQJKooEFUWCiiJBRZGgokhQUSSoKBJUFAkqigQVRYKKIkFFkaCiSFBRJIgTlcn8NLnsipGGOFGF/B/z2sqSRtIIA5JWTYuRhjhRuexvI/GnHsSJyubkrU9AnCisUfgjDXmpDxElMPcJXKNkpj5R5bmb8qQJEyVKaiEB5EaUMGnCRJWrCPRTkhAlKi+wLI+QFVGFchTlC7KkeS+qnijJO6mv1qYXn88Qid6Lwnj15PF58/zZsmkkkHPrZsF0n10wqZT/icX7rzCwF/HCxT3hBR0e/FL1XLd3qtZHQfqpE/NWVN7cuXvAMECxRg3c2G/SnUkzPrZkjh55/1/N7IT9DEjHZ1y3n3v6TJthgEIUomrqXnv4Gv0RomFm+oepl2tXF81QMSrT6SRNNAGaqg/f+beLFxbrS2/Ph3CNcXGbXLfqw/mIoocPvoXHWJOePD1kmKAqz5ECL1/ZVzrGGhOXFeFWff19ixXFyKSNTqRSJuj6qKn77RXrSjVZAAXIzPT30vHIaMoWJ3sNG5QN76PHBysuNmSNj31dd97a+0ulY0gaGQ0MIy3xBysyPbQK0eKKqAabJFEPrUJxUcvFr/U8n/FmRY16I1Ru0eS7UCiPd9zeCRVdPfdFzNpSftYp51Gal14XiwpUgkHQGrYCqVRL+DfO82Vq0bTUhwudyfwy76yIrH29JmQllOH7bixkQlokr9MeH+vaFR53de0228GOpT4IwXdqdOcJXjHM2CIQ2eXbOlfDiE4Fzfv6vSkmcCEQbfni7V6YhGPbIpqIV8zxYru3mw1s3XI+SnER5dRn012QKL6XKKXHneq34hHlzRqVCteG+tMIZne1iGIvJqirPvRJQ5tM1KPzhms4z2doRcUnEuiT3BTnzgYB+q1LPR9pt+spRcUlYbtio9Q2EHt/1o6Seq0sRuhEYXvDlYRRUrXtivhEAusZtjvYoBKFyq+/71PpGOltsrhPBYJ/lPtxWdju2Gg26DNUorrPLZTWGGx3YE/J7cXcvsadPgDIwjA3On948HPD78PYTmhEoWqLeikUCdjuqJfzNk3Ovewo9UZIgSzFBYUofOejakOUIIpQJGwVSHrz9nD4GWicJ0hSIIUo9EpYY+ZedVS9GcWdImw2UUBUQjo2FRmiyvv9aIyT4mtRo4D0F1a+imoAQR2C1oa+W/l3egNmU4mGqqCZk+1mIPYRO250SUCUKGxPRAREe121IEuU0+SqKBLikwl2hKW+shymbf5aEPeciVCWPhDEf3A/hLRoAjIjSiDi/ledtojQx8ARgF5KH6xIQDqNO1jliRK36ka3GkuD+sduJKO/K54UFUWCiiJBRZGgokhQUSSoKBJUFAkqigQVRYKKIkFFkaCiSFBRJKgoElQUCSqKBBVFgooiQUWRoKJIWHcXkuInGlEkqCgSVBQJfwFJWMcKLx/BoQAAAABJRU5ErkJggg==" alt="" style="width:53px;" class="d-lg-block d-none">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGoAAABqCAYAAABUIcSXAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAATESURBVHgB7Z0xTFNRFIYvtBo0xldDjCEOJXFwk0Gjmw4aNnUgsukgkUkcCGyEwbhpHIAJooOOxgHYTBx0w+hQNxOH1sQQVLRFo0RRvP+jr719YGmxlPufnC8x9jXPBt/HOfeccx+PlkQisWoU72k1CgUqigQVRUIy/sbyStooO09bMldxrBFFgooiQUWRoKJIUFEkqCgSVBQJKooEFUWCiiJBRZGgokhQUSSoKBJUFAkqigQVRYKKIkFFkaCiSFBRJIgTlcn8NLnsipGGOFGF/B/z2sqSRtIIA5JWTYuRhjhRuexvI/GnHsSJyubkrU9AnCisUfgjDXmpDxElMPcJXKNkpj5R5bmb8qQJEyVKaiEB5EaUMGnCRJWrCPRTkhAlKi+wLI+QFVGFchTlC7KkeS+qnijJO6mv1qYXn88Qid6Lwnj15PF58/zZsmkkkHPrZsF0n10wqZT/icX7rzCwF/HCxT3hBR0e/FL1XLd3qtZHQfqpE/NWVN7cuXvAMECxRg3c2G/SnUkzPrZkjh55/1/N7IT9DEjHZ1y3n3v6TJthgEIUomrqXnv4Gv0RomFm+oepl2tXF81QMSrT6SRNNAGaqg/f+beLFxbrS2/Ph3CNcXGbXLfqw/mIoocPvoXHWJOePD1kmKAqz5ECL1/ZVzrGGhOXFeFWff19ixXFyKSNTqRSJuj6qKn77RXrSjVZAAXIzPT30vHIaMoWJ3sNG5QN76PHBysuNmSNj31dd97a+0ulY0gaGQ0MIy3xBysyPbQK0eKKqAabJFEPrUJxUcvFr/U8n/FmRY16I1Ru0eS7UCiPd9zeCRVdPfdFzNpSftYp51Gal14XiwpUgkHQGrYCqVRL+DfO82Vq0bTUhwudyfwy76yIrH29JmQllOH7bixkQlokr9MeH+vaFR53de0228GOpT4IwXdqdOcJXjHM2CIQ2eXbOlfDiE4Fzfv6vSkmcCEQbfni7V6YhGPbIpqIV8zxYru3mw1s3XI+SnER5dRn012QKL6XKKXHneq34hHlzRqVCteG+tMIZne1iGIvJqirPvRJQ5tM1KPzhms4z2doRcUnEuiT3BTnzgYB+q1LPR9pt+spRcUlYbtio9Q2EHt/1o6Seq0sRuhEYXvDlYRRUrXtivhEAusZtjvYoBKFyq+/71PpGOltsrhPBYJ/lPtxWdju2Gg26DNUorrPLZTWGGx3YE/J7cXcvsadPgDIwjA3On948HPD78PYTmhEoWqLeikUCdjuqJfzNk3Ovewo9UZIgSzFBYUofOejakOUIIpQJGwVSHrz9nD4GWicJ0hSIIUo9EpYY+ZedVS9GcWdImw2UUBUQjo2FRmiyvv9aIyT4mtRo4D0F1a+imoAQR2C1oa+W/l3egNmU4mGqqCZk+1mIPYRO250SUCUKGxPRAREe121IEuU0+SqKBLikwl2hKW+shymbf5aEPeciVCWPhDEf3A/hLRoAjIjSiDi/ledtojQx8ARgF5KH6xIQDqNO1jliRK36ka3GkuD+sduJKO/K54UFUWCiiJBRZGgokhQUSSoKBJUFAkqigQVRYKKIkFFkaCiSFBRJKgoElQUCSqKBBVFgooiQUWRoKJIWHcXkuInGlEkqCgSVBQJfwFJWMcKLx/BoQAAAABJRU5ErkJggg==" alt="" style="width:40px;" class="d-lg-none d-block">
+            </a>
+            <h1 class="h4 ms-16 mb-0 d-lg-block d-none">7TAO</h1>
+            <h2 class="fs-7 ms-1 fw-bold mb-0 d-lg-block d-none">活動訂票網</h2>
+            <form class="d-lg-flex d-none ms-48 " style="max-width: 335px;">           
+                <input class="form-control border-primary" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-primary " type="submit">
+                    <i class="icofont-search-1"></i>
+                </button>
+            </form>
+
+            <form class="d-flex d-lg-none ms-24" style="max-width: 207px;">
+                <input class="form-control border-primary" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-primary " type="submit">
+                    <i class="icofont-search-1"></i>
+                </button>
+            </form>
+        </div>
+
+        <div class="d-lg-flex align-items-center ms-auto d-none">
+            <a href="#" class="d-flex text-decoration-none ">
+                <i class="icofont-ui-file"></i>
+                <p class="h6 me-24 ms-1 mb-0">REGISTER</p>
+            </a>
+            
+            <a href="#" class="d-flex text-decoration-none">
+                <i class="icofont-ui-user"></i>
+                <p class="h6 ms-1 mb-0">LOGIN</p>
+            </a>
+            
+        </div>
+
+        <!-- hamberger -->
+        <div class="navbar navbar-primary  ms-auto bg-background d-lg-none d-block">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#hamburger" aria-controls="navbarToggleExternalContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>           
+        </div>
+    </div>
+
+    <div class="collapse" id="hamburger">
+        <div class="bg-background py-24 border-top border-primary border-3">
+            <div class="d-flex flex-column container  ">
+                <a href="" class="d-flex mb-16 text-decoration-none">
+                    <i class="icofont-ui-file"></i>
+                    <p class="h6 ms-1 mb-0 ">REGISTER </p>
+                </a>
+    
+                <a href="" class="d-flex text-decoration-none">
+                    <i class="icofont-ui-user"></i>
+                    <p class="h6 ms-1 mb-0">LOGIN</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+</nav>
+
+    <div class="container pb-60">
+        <!-- banner -->
+        <div class="row g-4 mb-24 d-lg-flex d-none">
+
+            <div class="col-lg-10 col-12">
+                <div class="border border-primary border-3 ">
+                    <img src="/web-layout-training-vite/assets/09-496f8f1c.jpg" alt="" class="img-fluid p-24 ">
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-12 d-lg-block d-flex justify-content-evenly  ">
+                <h2 class="fs-3 py-32 text-center border border-primary border-3 mb-24 px-lg-0 px-24">2023</h2>
+                <div class="border border-primary border-3 py-lg-48 py-0 ">
+                    <!-- desktop -->
+                    <h2 class="fs-3 text-center py-24 d-lg-block d-none">
+                        MAY <br>
+                        19 <br>
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAABZCAYAAABxEgdvAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFKSURBVHgB7dthTcRAFMTxf1CAhIcDJJwEUMA6AAfUAThgHZwEJJwEJCDh6GbZnIXpZH5Jk/v6cum085oFH4WR9/362a8nDBRzmCsmA3XmMF8YKOYwV0zuoQtzmA0DjTnMuH8KAysIXjAwYnr9O4dX3ILgEQMdo5ge/4hVTK8g2DDQMAsCy5i+YKAwC4KOUUw3TN/XNgw0EtO6OqnVus4kpnWlVquq/fol209NRWq1rsYtCO45uDFAYlpVkVqt68QcZjxICwOp1aoKs5j+YA7zjYEiMa2rYVqr3zDwSmJaVye1Wtd4eI5hPjHQyPZTl12tXtvPEwY6iWld2X6qyvZTWZFarWt8Nsz2U1UjtVpXZw5zxkCRmNbVSK3Wle2nsk5qta51pDLbT0Wp1aqKHKnUlSOVyhp5X9O1YtriSOXdfj38/37GyOG/Gix/nrDF3y1MAAUAAAAASUVORK5CYII=" alt=""  class="img-fluid my-lg-24 my-20" > <br>
+                        12:00 <br>
+                        | <br>
+                        20:00 <br>
+                    </h2>
+                    <!-- moble -->
+                    <!-- <h2 class="fs-5 text-center py-24 d-lg-none mb-0 d-flex align-items-ceneter">
+                        <div class="px-24">
+                            MAY <br>
+                            19
+                        </div>
+                        <img src="/assets/images/Line 6.png" alt="" class="img-fluid  px-32 " style="width: 100px">
+                        <div class="px-24 fs-7">
+                            12:00 <br>
+                            | <br>
+                            20:00
+                        </div>
+                    </h2> -->
+                </div>
+            </div>
+
+        </div>
+        <!-- pad+moble -->
+        <div class="row d-lg-none d-block mb-2">
+            <div class="col-12">
+                <div class="border border-primary border-3">
+                    <img src="/web-layout-training-vite/assets/09-496f8f1c.jpg" alt="" class="img-fluid p-12 ">
+                </div>               
+            </div>
+         </div>  
+
+
+        <div class="row mt-md-16  d-lg-none d-flex mb-24">
+            <div class="col-4">
+                <h2 class="fs-4 border border-primary border-2 py-24 text-center mb-0">2023</h2>
+            </div>
+
+            <div class="col-8 border border-primary border-2 d-flex d-flex justify-content-evenly  align-items-center ">
+                <div class="fs-5 text-center d-flex flex-column "> 
+                    <p class="mb-0">MAY</p> 
+                    <p class="mb-0">19</p>
+                </div>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAABZCAYAAABxEgdvAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFKSURBVHgB7dthTcRAFMTxf1CAhIcDJJwEUMA6AAfUAThgHZwEJJwEJCDh6GbZnIXpZH5Jk/v6cum085oFH4WR9/362a8nDBRzmCsmA3XmMF8YKOYwV0zuoQtzmA0DjTnMuH8KAysIXjAwYnr9O4dX3ILgEQMdo5ge/4hVTK8g2DDQMAsCy5i+YKAwC4KOUUw3TN/XNgw0EtO6OqnVus4kpnWlVquq/fol209NRWq1rsYtCO45uDFAYlpVkVqt68QcZjxICwOp1aoKs5j+YA7zjYEiMa2rYVqr3zDwSmJaVye1Wtd4eI5hPjHQyPZTl12tXtvPEwY6iWld2X6qyvZTWZFarWt8Nsz2U1UjtVpXZw5zxkCRmNbVSK3Wle2nsk5qta51pDLbT0Wp1aqKHKnUlSOVyhp5X9O1YtriSOXdfj38/37GyOG/Gix/nrDF3y1MAAUAAAAASUVORK5CYII=" alt="" class="img-fluid h-50 px-32">
+                <div class="fs-7 text-center d-flex flex-column">
+                    <p class="mb-0">12:00</p>
+                    <p class="mb-0">|</p>
+                    <p  class="mb-0">20:00</p>
+                </div>
+            </div>
+
+        </div>
+
+       
+
+
+        <!-- content -->
+        <h1 class="h2 mb-md-16 mb-2 fw-bold">返老還童-制服聯誼</h1>
+        <h3 class="fs-5 mb-24">穿上制服，無年齡限制，一起走上街頭、尋找青春才有的純愛心動！</h3>
+        <div class="d-md-flex d-none d-none mb-md-48">
+            <div class="border-start border-3 border-primary me-2">
+                <a href="#" class="text-decoration-none">
+                     <p class="py-1 px-24 mb-0 fw-bold border border-primary">聯誼</p>
+                </a>           
+            </div>
+            <div class="border-start border-3 border-primary me-2">
+                <a href="#" class="text-decoration-none">
+                    <p class="py-1 px-24 mb-0 fw-bold border border-primary">美食</p>
+                </a>
+            </div>
+            <div class="border-start border-3 border-primary me-2">
+                <a href="#" class="text-decoration-none">
+                    <p class="py-1 px-24 mb-0 fw-bold border border-primary">戶外</p>
+                </a>
+            </div>
+            <div class="border-start border-3 border-primary me-2">
+                <a href="#" class="text-decoration-none">
+                    <p class="py-1 px-24 mb-0 fw-bold border border-primary">交通旅遊</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="border border-primary border-3 p-md-32 p-16 mb-md-48 mb-24">
+            <p class="mb-16">想回到過去？試著讓故事繼續？</p>
+            <p class="mb-16">由戀愛家教「艾德溫」主辦策劃，讓各位在安排好的青春行程中擁有自然的純愛互動體驗，互相餵食餅乾、觀察對方手相，有趣的互動環節讓你/妳怦然心動！制服由主辦方提供，妝髮造型可額外加價購！</p>
+            <p class="mb-16">活動中全程會有隨行攝影師，捕捉你們的純愛互動，拍攝成實境電視劇，讓你們能留下永恆的美好回憶&lt;3</p>
+        </div>
+
+        <div class="border border-primary border-3 py-md-24 px-md-32 py-16 px-12 mb-16 d-flex justify-content-between align-items-center">
+            <h2 class="fs-1 mb-0">TICKET</h2>
+            <h3 class="fs-4 mb-0">購票資訊</h3>
+        </div>
+
+        <table class="table border-primary ">
+            <thead>
+                <tr >
+                    <th scope="col" class="fw-bold">活動日期</th>
+                    <th scope="col">票種</th>
+                    <th scope="col">票價</th>
+                    <th scope="col" class="text-end pe-md-72 ">購票</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="">
+                    <th scope="row" class="fw-normal fs-8">2023/5/12</th>
+                    <td class="fs-8">普通票</td>
+                    <td class="fs-8 noto">$600</td>
+                    <td class="text-end d-md-block d-none"><a href="#" class="text-decoration-none border border-primary border-2 py-2 px-24 ">立即購票</a></td>
+                    <td class="text-end d-md-none d-block fs-8"><a href="#" class="text-decoration-none border border-primary border-2 py-2 px-sm-12 px-1">購票</a></td>
+                </tr>
+                <tr>
+                    <th scope="row" class="fw-normal fs-8">2023/5/12</th>
+                    <td class="fs-8">改頭換面票(含大改造)</td>
+                    <td class="fs-8 noto">$3600</td>
+                    <td class="text-end d-md-block d-none"><a href="#" class="text-decoration-none border border-primary border-2 py-2 px-24 ">立即購票</a></td>
+                    <td class="text-end d-md-none d-block fs-8"><a href="#" class="text-decoration-none border border-primary border-2 py-2 px-sm-12 px-1">購票</a></td>
+                </tr>
+                <tr>
+                    <th scope="row" class="fw-normal fs-8">2023/5/12</th>
+                    <td class="fs-8">必勝票(含戀愛小抄)</td>
+                    <td class="fs-8 noto">$8000</td>
+                    <td class="text-end d-md-block d-none"><a href="#" class="text-decoration-none border border-primary border-2 py-2 px-24 ">立即購票</a></td>
+                    <td class="text-end d-md-none d-block fs-8"><a href="#" class="text-decoration-none border border-primary border-2 py-2 px-sm-12 px-1">購票</a></td> 
+                </tr>
+            </tbody>
+        </table>
+
+
+    </div>
+
+
+
+
+
+     <div class="py-md-32 py-24 border-top border-3 border-primary">
+    <p class="text-center mb-0">© 7TAO七逃. All Rights Reserved</p>
+</div>
+    
+</body>
+
+</html>
